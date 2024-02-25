@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		963A1C762B8ADD460051A9DF /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963A1C752B8ADD460051A9DF /* Currency.swift */; };
 		965BC9D42B88C77A00C6CBB7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965BC9D32B88C77A00C6CBB7 /* User.swift */; };
 		965BC9D72B88CA2200C6CBB7 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965BC9D62B88CA2200C6CBB7 /* Subscription.swift */; };
 		965BC9DE2B88CA8400C6CBB7 /* SubscriptionBuyMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965BC9DD2B88CA8400C6CBB7 /* SubscriptionBuyMenu.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		963A1C752B8ADD460051A9DF /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		965BC9D32B88C77A00C6CBB7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		965BC9D62B88CA2200C6CBB7 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 		965BC9DD2B88CA8400C6CBB7 /* SubscriptionBuyMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionBuyMenu.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		965BC9CE2B88C6D100C6CBB7 /* CurrencyModel */ = {
 			isa = PBXGroup;
 			children = (
+				963A1C752B8ADD460051A9DF /* Currency.swift */,
 			);
 			path = CurrencyModel;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				96C824732B86A676003DAD31 /* ContentView.swift in Sources */,
 				965BC9E82B88CF9900C6CBB7 /* CurrencyCreationView.swift in Sources */,
 				965BC9E62B88CF8C00C6CBB7 /* CurrencyListView.swift in Sources */,
+				963A1C762B8ADD460051A9DF /* Currency.swift in Sources */,
 				96C824712B86A676003DAD31 /* Exchange_ClickApp.swift in Sources */,
 				965BC9DE2B88CA8400C6CBB7 /* SubscriptionBuyMenu.swift in Sources */,
 				965BC9D72B88CA2200C6CBB7 /* Subscription.swift in Sources */,

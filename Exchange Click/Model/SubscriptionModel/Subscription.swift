@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+
+struct Subscription:Codable{
+    let subscriptionId:Int
+    let subscriptionName:String
+    let sbuscriptionPrice:Int
+}
