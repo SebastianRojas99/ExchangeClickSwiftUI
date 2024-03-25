@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		963A1C762B8ADD460051A9DF /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963A1C752B8ADD460051A9DF /* Currency.swift */; };
+		9648F1F52BB1ADFC002E2E97 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9648F1F42BB1ADFC002E2E97 /* LoginViewModel.swift */; };
+		9648F1F72BB1B028002E2E97 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9648F1F62BB1B028002E2E97 /* LoginView.swift */; };
 		965BC9D42B88C77A00C6CBB7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965BC9D32B88C77A00C6CBB7 /* User.swift */; };
 		965BC9D72B88CA2200C6CBB7 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965BC9D62B88CA2200C6CBB7 /* Subscription.swift */; };
 		965BC9DE2B88CA8400C6CBB7 /* SubscriptionBuyMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965BC9DD2B88CA8400C6CBB7 /* SubscriptionBuyMenu.swift */; };
@@ -24,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		963A1C752B8ADD460051A9DF /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		9648F1F42BB1ADFC002E2E97 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9648F1F62BB1B028002E2E97 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		965BC9D32B88C77A00C6CBB7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		965BC9D62B88CA2200C6CBB7 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 		965BC9DD2B88CA8400C6CBB7 /* SubscriptionBuyMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionBuyMenu.swift; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 		965BC9D02B88C74000C6CBB7 /* UserViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9648F1F42BB1ADFC002E2E97 /* LoginViewModel.swift */,
 			);
 			path = UserViewModel;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			children = (
 				965BC9E12B88CF5500C6CBB7 /* UserListView.swift */,
 				965BC9E32B88CF6800C6CBB7 /* UserCreationView.swift */,
+				9648F1F62BB1B028002E2E97 /* LoginView.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -276,7 +282,9 @@
 				965BC9E62B88CF8C00C6CBB7 /* CurrencyListView.swift in Sources */,
 				963A1C762B8ADD460051A9DF /* Currency.swift in Sources */,
 				96C824712B86A676003DAD31 /* Exchange_ClickApp.swift in Sources */,
+				9648F1F52BB1ADFC002E2E97 /* LoginViewModel.swift in Sources */,
 				965BC9DE2B88CA8400C6CBB7 /* SubscriptionBuyMenu.swift in Sources */,
+				9648F1F72BB1B028002E2E97 /* LoginView.swift in Sources */,
 				965BC9D72B88CA2200C6CBB7 /* Subscription.swift in Sources */,
 				965BC9D42B88C77A00C6CBB7 /* User.swift in Sources */,
 			);

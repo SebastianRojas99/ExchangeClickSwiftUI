@@ -27,3 +27,6 @@ struct Register {
     let user:User
     let password:String
 }
+
+
+
