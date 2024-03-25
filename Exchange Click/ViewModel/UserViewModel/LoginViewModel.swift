@@ -13,6 +13,25 @@ class LoginViewModel:ObservableObject{
     
     func login(){
         let loginData = Login(email: email, password: password)
+        guard let url = URL(string: "https://localhost:7043/api/Auth/authenticate")else{return}
+        print("\(loginData)")
+        
+        var request = URLRequest(url:url)
+        request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        
+        do{
+            request.httpBody = try JSONEncoder().encode(loginData)
+        }catch{
+            return
+        }
+        URLSession.shared.dataTask(with: request){data, response, error in
+            guard let _ = data, error == nil else{
+                return
+            }
+            
+            
+        }
     }
 
 }
