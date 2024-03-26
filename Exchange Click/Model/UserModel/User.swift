@@ -27,6 +27,11 @@ struct Register {
     let user:User
     let password:String
 }
+struct TokenResponse: Decodable {
+    let token: String
+}
+
+
 
 
 
