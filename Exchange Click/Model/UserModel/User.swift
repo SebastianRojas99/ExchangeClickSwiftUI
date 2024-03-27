@@ -9,11 +9,12 @@ import Foundation
 
 
 struct User:Decodable{
-    let userId:UUID
+    let userId:Int
     let name:String
     let lastName:String
     let email:String
     let username:String
+    let subCount:Int
     let subscriptionId:Int
     
 }

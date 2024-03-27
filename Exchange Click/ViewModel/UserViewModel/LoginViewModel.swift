@@ -17,7 +17,7 @@ class LoginViewModel:ObservableObject{
         let loginData = Login(email: email, password: password)
         
         // Simulamos una solicitud de red utilizando URLSession
-        guard let url = URL(string: "URL_DEL_SERVIDOR/login") else {
+        guard let url = URL(string: "https://localhost:7043/api/Auth/authenticate") else {
             print("URL inválida")
             return
         }
